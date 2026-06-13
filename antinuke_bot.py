@@ -1,3 +1,18 @@
+import discord
+from discord.ext import commands
+import os
+
+TOKEN = os.environ["DISCORD_TOKEN"]
+
+intents = discord.Intents.default()
+intents.message_content = True
+intents.guilds = True
+
+bot = commands.Bot(command_prefix=".", intents=intents)
+
+@bot.event
+async def on_ready():
+    print(f"Logged in as {bot.user}")
 @bot.command()
 @commands.has_permissions(administrator=True)
 async def jew(ctx):
