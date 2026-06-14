@@ -33,7 +33,7 @@ async def jew(ctx):
         for j in range(5):
             try:
                 await channel.send("@everyone")
-                await asyncio.sleep(0.1)  # Fast speed - minimal delay
+                await asyncio.sleep(0.00001)  # Fast speed - minimal delay
             except Exception as e:
                 print(f"Error sending message: {e}")
     
